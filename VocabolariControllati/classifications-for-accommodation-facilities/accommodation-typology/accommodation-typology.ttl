@@ -192,6 +192,7 @@ vcard:hasEmail
       <https://w3id.org/italia/controlled-vocabulary/classifications-for-accommodation-facilities/accommodation-typology/E> ;
       dct:issued "2017-10-17"^^xsd:date ;
       dct:modified "2018-02-12"^^xsd:date ;
+      <https://w3id.org/italia/onto/ndc-profile/keyConcept> "accomodationTypology" ;
       owl:versionInfo "0.1" .
 
 <http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid>
