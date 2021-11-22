@@ -5581,7 +5581,7 @@ In the automatic mapping process, out of a total of 447 entries of the controlle
     dct:type <http://purl.org/adms/assettype/Thesaurus> ;
     xkos:numberOfLevels "3" ;
     rdfs:isDefinedBy <https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/subject-disciplines> ;
-    <https://w3id.org/italia/onto/ndc-profile/keyConcept> "subject-disciplines" ;
+    <https://w3id.org/italia/onto/ndc-profile/keyConcept> "subject-DISCIPLINES" ;
     owl:versionInfo "0.1" ;
     skos:hasTopConcept <https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/subject-disciplines/001>,
         <https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/subject-disciplines/002>,
