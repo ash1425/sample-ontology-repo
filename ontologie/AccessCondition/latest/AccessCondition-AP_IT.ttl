@@ -65,7 +65,8 @@
                                                              "Orari di apertura"@it ;
                                                 admsapit:hasSemanticAssetDistribution <https://w3id.org/italia/data/distribution/ACAPIT-JSON-LD> ;
                                                 ####### Rony/Srini/Ginette added
-                                                dct:identifier "Testing Access Condition" .
+                                                dct:identifier "Testing Access Condition" ;
+                                                dcat:distribution <https://w3id.org/italia/data/distribution/licence-RDF-Turtle> .
 
 #################################################################
 #    Annotation properties
