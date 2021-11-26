@@ -63,10 +63,7 @@
                                                 admsapit:hasFormalityLevel admsapit:Formal ;
                                                 dcat:keyword "Condizioni d'accesso"@it ,
                                                              "Orari di apertura"@it ;
-                                                admsapit:hasSemanticAssetDistribution <https://w3id.org/italia/data/distribution/ACAPIT-JSON-LD> ;
-                                                ####### Rony/Srini/Ginette added
-                                                dct:identifier "Testing Access Condition" ;
-                                                dcat:distribution <https://w3id.org/italia/data/distribution/licence-RDF-Turtle> .
+                                                admsapit:hasSemanticAssetDistribution <https://w3id.org/italia/data/distribution/ACAPIT-JSON-LD> .
 
 #################################################################
 #    Annotation properties
