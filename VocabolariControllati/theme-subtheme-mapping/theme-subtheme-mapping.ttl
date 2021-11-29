@@ -173,7 +173,7 @@ align:onto2
     dcat:contactPoint <http://dati.gov.it/data/resource/ContactPoint/voc_AgID> ;
     dct:issued "2017-10-20"^^xsd:date ;
     dct:modified "2018-02-12"^^xsd:date ;
-        <https://w3id.org/italia/onto/ndc-profile/keyConcept> "themeSubthemesMap" ;
+    <https://w3id.org/italia/onto/ndc-profile/keyConcept> "themeSubthemesMap" ;
     owl:versionInfo "versione 0.1"@it .
 
 

@@ -4,6 +4,7 @@
 	<http://purl.org/dc/terms/description> "Vocabolario controllato delle ripartizioni geografiche d'Italia"@it , "Controlled Vocabulary for describing Italy's Geographical Distributions"@en ;
 	<http://rdf-vocabulary.ddialliance.org/xkos#numberOfLevels> "1" ;
 	<http://purl.org/dc/terms/type> <http://purl.org/adms/assettype/CodeList> ;
+	<https://w3id.org/italia/onto/ndc-profile/keyConcept> "GeographicalDistribution" ;
 	<http://www.w3.org/ns/adms#representationTechnique> <http://purl.org/adms/representationtechnique/SKOS> ;
 	<http://purl.org/dc/terms/identifier> "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution" ;
 	<http://purl.org/dc/terms/rightsHolder> <http://spcdata.digitpa.gov.it/Amministrazione/istat> ;

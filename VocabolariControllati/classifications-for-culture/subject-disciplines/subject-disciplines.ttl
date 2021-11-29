@@ -5530,7 +5530,6 @@ Analizza, anche attraverso modelli di studio in vitro, le funzioni vegetative e 
     skos:relatedMatch <http://culturaitalia.it/pico/thesaurus/4.1#scienze_mediche>,
         <http://thes.bncf.firenze.sbn.it/termine.php?id=11703&menuR=1&menuS=2> ;
     skos:topConceptOf <https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/subject-disciplines> ;
-    <https://w3id.org/italia/onto/ndc-profile/keyConcept> "subjectDisciplines" ;
     clvapit:hasRankOrder "1" .
 
 <https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/subject-disciplines> a dcatapit:Dataset,
@@ -5583,6 +5582,7 @@ In the automatic mapping process, out of a total of 447 entries of the controlle
     xkos:numberOfLevels "3" ;
     rdfs:isDefinedBy <https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/subject-disciplines> ;
     owl:versionInfo "0.1" ;
+    <https://w3id.org/italia/onto/ndc-profile/keyConcept> "subjectDisciplines" ;
     skos:hasTopConcept <https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/subject-disciplines/001>,
         <https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/subject-disciplines/002>,
         <https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/subject-disciplines/003>,
