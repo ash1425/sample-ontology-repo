@@ -18,6 +18,7 @@ bin/
 !**/src/test/**/bin/
 
 ### IntelliJ IDEA ###
+**/.DS_Store
 *.DS_Store
 .DS_Store
 .idea
@@ -40,4 +41,4 @@ out/
 
 ### Superlinter ###
 super-linter.log
-report
+report.DS_Store
