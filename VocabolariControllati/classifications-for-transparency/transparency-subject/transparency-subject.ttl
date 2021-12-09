@@ -45,7 +45,7 @@
 	dct:conformsTo <https://w3id.org/italia/data/standard/SKOS> ;
 	dct:language <http://publications.europa.eu/resource/authority/language/ITA> ,
 		<http://publications.europa.eu/resource/authority/language/ENG> ;
-
+        <https://w3id.org/italia/onto/ndc-profile/keyConcept> "TransparencySubject" ;
 	dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/IRREG> ;
 	dcat:keyword
 		"trasparenza"@it, "trasparenza pubblica amministrazione"@it, "trasparenza PA"@it, "trasparenza pa"@it, "temi trasparenza"@it,

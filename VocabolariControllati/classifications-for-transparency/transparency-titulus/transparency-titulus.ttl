@@ -114,6 +114,7 @@ clvapit:hasRankOrder a rdfs:Property .
 	
 	xkos:numberOfLevels "2" ; 
 	dct:identifier "ANAC:transparency-titulus" ; 
+	<https://w3id.org/italia/onto/ndc-profile/keyConcept> "TrasparencyTitulus" ;
 	dct:type <http://purl.org/adms/assettype/Taxonomy> ; 
 	adms:representationTechnique <http://purl.org/adms/representationtechnique/SKOS> ; 
 	dcat:theme <http://publications.europa.eu/resource/authority/data-theme/GOVE>, <http://publications.europa.eu/resource/authority/data-theme/TECH> ; 

@@ -192,7 +192,7 @@ vcard:hasEmail
       dcat:contactPoint <http://dati.gov.it/data/resource/ContactPoint/voc_AgID> ;
       dct:issued "2019-05-06"^^xsd:date ;
       dct:modified "2019-05-06"^^xsd:date ;
-          <https://w3id.org/italia/onto/ndc-profile/keyConcept> "personTitle" ;
+      <https://w3id.org/italia/onto/ndc-profile/keyConcept> "personTitle" ;
       skos:hasTopConcept <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/person-title/1>, <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/person-title/2>, <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/person-title/3>, <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/person-title/4>, <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/person-title/5>, <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/person-title/6>, <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/person-title/7> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-people/person-title/8> ;
       owl:versionInfo "Preliminary version of the controlled vocabulary. The vocabulary is not exaustive with respect of all possibile well known titles of a person"@en, "Versione preliminare del 2019-05-06. Il vocabolario non è esaustivo rispetto agli appellativi più comuni utilizzati."@it .
 
