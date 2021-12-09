@@ -192,7 +192,7 @@ vcard:hasEmail
       dcat:contactPoint <https://w3id.org/italia/data/contact-point/voc_AgID> ;
       dct:issued "2020-06-06"^^xsd:date ;
       dct:modified "2020-06-06"^^xsd:date ;
-          <https://w3id.org/italia/onto/ndc-profile/keyConcept> "fieldsOfResearch" ;
+      <https://w3id.org/italia/onto/ndc-profile/keyConcept> "fieldOfResearch" ;
       skos:hasTopConcept  <https://w3id.org/italia/controlled-vocabulary/classifications-for-her/fields-of-research-development/1> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-her/fields-of-research-development/2>, <https://w3id.org/italia/controlled-vocabulary/classifications-for-her/fields-of-research-development/3> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-her/fields-of-research-development/4> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-her/fields-of-research-development/5> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-her/fields-of-research-development/6>.
 
 <https://w3id.org/italia/data/private-organization/unesco>

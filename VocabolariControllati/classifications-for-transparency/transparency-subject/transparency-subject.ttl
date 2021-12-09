@@ -37,7 +37,6 @@
 		"Vocabolario Controllato dei Temi degli Obblighi di Trasparenza PA"@it ;
 
 	xkos:numberOfLevels "1" ;
-            <https://w3id.org/italia/onto/ndc-profile/keyConcept> "TransparencySubject" ;
 	dct:identifier "ANAC:transparency-subject" ;
 	dct:type <http://purl.org/adms/assettype/CodeList> ;
 	adms:representationTechnique <http://purl.org/adms/representationtechnique/SKOS> ;

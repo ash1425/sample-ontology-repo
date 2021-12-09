@@ -196,7 +196,7 @@ vcard:hasEmail
       dcat:contactPoint <https://w3id.org/italia/data/contact-point/voc_AgID> ;
       dct:issued "2020-05-20"^^xsd:date ;
       dct:modified "2020-06-23"^^xsd:date ;
-          <https://w3id.org/italia/onto/ndc-profile/keyConcept> "AllScienceJournal" ;
+      <https://w3id.org/italia/onto/ndc-profile/keyConcept> "AllScienceJournal" ;
       owl:versionInfo "version 0.2 - inseriti i mapping con il vocabolario controllato sugli ERC panel - https://w3id.org/italia/controlled-vocabulary/classifications-for-her/erc-panel-h2020-fp"@it ;
       skos:hasTopConcept  <https://w3id.org/italia/controlled-vocabulary/classifications-for-her/all-science-journal/HS> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-her/all-science-journal/LS>, <https://w3id.org/italia/controlled-vocabulary/classifications-for-her/all-science-journal/SSH> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-her/all-science-journal/PS> .
 

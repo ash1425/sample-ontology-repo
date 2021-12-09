@@ -199,7 +199,7 @@ vcard:hasEmail
       dcat:contactPoint <https://w3id.org/italia/data/contact-point/voc_AgID> ;
       dct:issued "2020-06-06"^^xsd:date ;
       dct:modified "2020-06-11"^^xsd:date ;
-      <https://w3id.org/italia/onto/ndc-profile/keyConcept> "ERCPanel" ;
+      <https://w3id.org/italia/onto/ndc-profile/keyConcept> "ercPanel" ;
       skos:hasTopConcept  <https://w3id.org/italia/controlled-vocabulary/classifications-for-her/erc-panel-h2020-fp/PE> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-her/erc-panel-h2020-fp/LS>, <https://w3id.org/italia/controlled-vocabulary/classifications-for-her/erc-panel-h2020-fp/SH> .
 
 <https://w3id.org/italia/data/private-organization/erc>
@@ -1090,7 +1090,7 @@ vcard:hasEmail
                     <https://w3id.org/italia/controlled-vocabulary/classifications-for-her/erc-panel-h2020-fp/LS5-5> ,
                     <https://w3id.org/italia/controlled-vocabulary/classifications-for-her/erc-panel-h2020-fp/LS5-6> ,
                     <https://w3id.org/italia/controlled-vocabulary/classifications-for-her/erc-panel-h2020-fp/LS5-7> ,
-                    <https://w3id.org/italia/controlled-vocabulary/classifications-for-her/erc-panel-h2020-fp/LS5-8> .
+                    <https://w3id.org/italia/controlled-vocabulary/classifications-for-her/erc-panel-h2020-fp/LS5-8> ,
                     <https://w3id.org/italia/controlled-vocabulary/classifications-for-her/erc-panel-h2020-fp/LS5-9> ;
       skos:broader <https://w3id.org/italia/controlled-vocabulary/classifications-for-her/erc-panel-h2020-fp/LS> ;
       skos:notation "LS5" ;

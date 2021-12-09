@@ -113,7 +113,6 @@ clvapit:hasRankOrder a rdfs:Property .
 		"Vocabolario Controllato Trasparenza PA"@it ; 
 	
 	xkos:numberOfLevels "2" ; 
-	    <https://w3id.org/italia/onto/ndc-profile/keyConcept> "TransparencyTitulus" ;
 	dct:identifier "ANAC:transparency-titulus" ; 
 	dct:type <http://purl.org/adms/assettype/Taxonomy> ; 
 	adms:representationTechnique <http://purl.org/adms/representationtechnique/SKOS> ; 
