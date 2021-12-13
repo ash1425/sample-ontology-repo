@@ -22,6 +22,9 @@ and other interfaces.""" ;
     admsapt:hasKeyClass cpv:Person ;
     dcat:theme <http://publications.europa.eu/resource/authority/data-theme/EDUC> .
 
+cpv:person a owl:Ontology ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Person" .
+
 <https://raw.githubusercontent.com/ioggstream/json-semantic-playground/master/assets/schemas/person/v202108.01/person.oas3.yaml> a dcatapit:Distribution ;
     dct:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
     dct:license licences:A21_CCBY40 ;
