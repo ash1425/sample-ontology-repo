@@ -11,6 +11,7 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ndc: <https://w3id.org/italia/onto/ndc-profile/> .
 
 
 dcatapit:Dataset
@@ -157,6 +158,9 @@ vcard:fn
 vcard:hasEmail
     a     rdfs:Property .
 
+ndc:keyConcept
+    a     rdfs:Property .
+
 <https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places>
       a       skos:ConceptScheme , adms:Asset , dcatapit:Dataset ;
       rdfs:comment "Taxonomy for public places of cultural interest"@en , "Tassonomia dei luoghi pubblici di interesse culturale"@it ;
@@ -167,6 +171,7 @@ vcard:hasEmail
       dct:type <http://purl.org/adms/assettype/Taxonomy> ;
       adms:representationTechnique <http://purl.org/adms/representationtechnique/SKOS> ;
       dct:identifier "https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places" ;
+      ndc:keyConcept "cultural-interest-places" ;
       dct:rightsHolder <http://spcdata.digitpa.gov.it/Amministrazione/m_bac> ;
       dct:creator <http://spcdata.digitpa.gov.it/Amministrazione/agid>  , <hhttp://spcdata.digitpa.gov.it/Amministrazione/m_bac> ;
       dct:publisher <http://spcdata.digitpa.gov.it/Amministrazione/agid>  ;
@@ -182,7 +187,6 @@ vcard:hasEmail
       dct:issued "2019-06-21"^^xsd:date ;
       dct:modified "2020-03-04"^^xsd:date ;
       skos:hasTopConcept <https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/A> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/B> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/C> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/F> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/G> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/H> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/I> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/L> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/M> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/N> , <https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/O> ;
-      <https://w3id.org/italia/onto/ndc-profile/keyConcept> "CulturalInterestPlaces" ;
       owl:versionInfo "versione 0.3 - le modifiche introdotte sono le seguenti: 1) inserite alcune voci di livello 2 per 'luogo per lo sport e tempo libero'. In particolare, aggiunte le seguenti voci: Piscina, Stadio, Terme, Casa da gioco, Circolo sportivo, Piazza; 2) aggiunte le seguenti voci di primo livello (con le relative voci di secondo livello): M - Centro per l'assistenza e la tutela sociale, N - Infrastruttura e impianto, O - Struttura ricettiva; 3) corretta la proprietà skos:prefLabel in skos:altLabel per l'oggetto A - https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/A"@it .
 
   <http://spcdata.digitpa.gov.it/Amministrazione/agid>

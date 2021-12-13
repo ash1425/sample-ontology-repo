@@ -12,7 +12,7 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-
+@prefix ndc: <https://w3id.org/italia/onto/ndc-profile/> .
 
 dcatapit:Dataset
       a       rdfs:Class .
@@ -161,6 +161,9 @@ vcard:fn
 vcard:hasEmail
     a     rdfs:Property .
 
+ndc:keyConcept 
+    a     rdfs:Property .
+
 <https://w3id.org/italia/controlled-vocabulary/public-event-types>
       a       skos:ConceptScheme , adms:Asset , dcatapit:Dataset ;
       rdfs:comment "Classification of the public events"@en , "Classificazione degli eventi pubblici"@it ;
@@ -168,6 +171,7 @@ vcard:hasEmail
       dct:title "Types of Public Events"@en , "Classificazione dei tipi di eventi pubblici"@it ;
       dct:description "Classification of the types of Public Events. The classification is aligned with schema.org."@en , "Classificazione dei tipi di eventi pubblici. La classificazione è allineata a schema.org"@it ;
       xkos:numberOfLevels "3";
+      ndc:keyConcept "public-event-types" ;
       dct:type <http://purl.org/adms/assettype/Taxonomy> ;
       adms:representationTechnique <http://purl.org/adms/representationtechnique/SKOS> ;
       dct:identifier "agid:D.11" ;
@@ -188,7 +192,6 @@ vcard:hasEmail
       dcat:contactPoint <https://w3id.org/italia/data/contact-point/voc-AgID> ;
       skos:hasTopConcept <https://w3id.org/italia/controlled-vocabulary/public-event-types/1> ,  <https://w3id.org/italia/controlled-vocabulary/public-event-types/2> , <https://w3id.org/italia/controlled-vocabulary/public-event-types/3> , <https://w3id.org/italia/controlled-vocabulary/public-event-types/4> , <https://w3id.org/italia/controlled-vocabulary/public-event-types/5> ;
       dct:issued "2017-10-17"^^xsd:date ;
-          <https://w3id.org/italia/onto/ndc-profile/keyConcept> "publicEventTypes" ;
       dct:modified "2020-04-08"^^xsd:date ;
       owl:versionInfo "0.2 - il vocabolario è stato completamente rivisto dalla sua versione 0.1, considerata ora deprecata. Ogni voce del presente vocabolario include una nota di riferimento al precedente, ove applicabile. Nella versione di Aprile 2020 sono stati corretti dei typo"@it .
 

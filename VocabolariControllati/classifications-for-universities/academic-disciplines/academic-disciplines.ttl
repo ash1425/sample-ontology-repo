@@ -16,6 +16,7 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix herapit: <https://w3id.org/italia/onto/HER/> .
+@prefix ndc: <https://w3id.org/italia/onto/ndc-profile/> .
 
 dcatapit:Agent a rdfs:Class .
 
@@ -126,6 +127,8 @@ dcat:theme a rdfs:Property .
 foaf:name a rdfs:Property .
 
 clvapit:hasRankOrder a rdfs:Property .
+
+ndc:keyConcept a rdfs:Property .
 
 <https://w3id.org/italia/data/contact-point/voc_AgID> a dcatapit:Organization,
         vcard:Kind,
@@ -8667,12 +8670,12 @@ ad:SC-10-N1 a skos:Concept , herapit:AcademicRecruitementField ;
     dct:rightsHolder <https://w3id.org/italia/data/public-organization/m_pi> ;
     dct:subject <http://eurovoc.europa.eu/3672>,
         <http://eurovoc.europa.eu/4151> ;
-    <https://w3id.org/italia/onto/ndc-profile/keyConcept> "academicDisciplines" ;
     dct:title "Vocabolario delle Aree CUN, dei Macrosettori, dei Settori Concorsuali e dei Settori Scientifico-Disciplinari delle Università Italiane"@it ;
     dct:type <http://purl.org/adms/assettype/Thesaurus> ;
     xkos:numberOfLevels "4" ;
     rdfs:isDefinedBy <https://w3id.org/italia/controlled-vocabulary/classifications-for-universities/academic-disciplines> ;
     owl:versionInfo "0.3 - incluso mapping con vocabolario ERC Panel" ;
+    ndc:keyConcept "academic-disciplines" ;
     skos:hasTopConcept ad:Area-01,
         ad:Area-02,
         ad:Area-03,
