@@ -1,4 +1,4 @@
-@prefix admsapt: <http://w3id.org/italia/onto/ADMS/> .
+@prefix admsapt: <https://w3id.org/italia/onto/ADMS/> .
 @prefix cpv: <https://w3id.org/italia/onto/CPV/> .
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dcatapit: <http://dati.gov.it/onto/dcatapit#> .
